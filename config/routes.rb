@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   
   get 'demo/index' #Simple/match route
 
+  get 'demo/hello'
   # default route
   # may go away in future rails release
   # get ':controller(/:action(/:id))'
