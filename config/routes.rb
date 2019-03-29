@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # default route
   # may go away in future rails release
   # get ':controller(/:action(/:id))'
-  
+  get 'demo/other_hello'
   
   # match "demo/index", :to => "demo#index", :via => :get #longer version of the simple route
 
